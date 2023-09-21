@@ -6,3 +6,8 @@
 
 **In this game, the protagonist is ourselves, and the protagonist's skill tree is our skill tree. We can easily record everything worth remembering in this game. This way, our personal growth is manifested in the game, and when we see the skill tree in the game growing and flourishing, it's like witnessing our life journey.**
 
+**As we grow old, there will always be records that remind us that we haven't journeyed through life in vain. We've left our unique mark in this world.**
+
+
+
+
