@@ -24,6 +24,9 @@
 
 #### Extra life skills
 
+##### Entertainment skills
+- Fishing
+- 
 
 ### Working skill
 
