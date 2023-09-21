@@ -19,14 +19,16 @@
 #### Basic life skills
 - Cooking
 - Housework
-- Repair
 - Handiwork
+- Study
 
 #### Extra life skills
 
 ##### Entertainment skills
 - Fishing
-- 
+- Crop
+- Hunt
+- Create
 
 ### Working skill
 
