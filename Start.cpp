@@ -12,5 +12,7 @@ int main()
     cout << "int *p:" << sizeof(p) << endl;
     cout << p << endl;
 
+    int *point = NULL;
+    
     return 0;
 }
