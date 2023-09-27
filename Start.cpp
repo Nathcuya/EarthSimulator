@@ -9,7 +9,7 @@ int main()
     int a = 5;
     int *p;
     p = &a;
-
+    cout << "int *p:" << sizeof(p) << endl;
     cout << p << endl;
 
     return 0;
