@@ -31,7 +31,9 @@ int main()
     int *p =arr;
     for (int j = 1; j <= 10;j++)
     {
-          cout << "利用指针访问数组第一个数：" << *p << endl;
+          cout << "利用指针访问数组第"<<j<<"个数：" << *p << endl;
+          p++;
+
     }
       
 }
