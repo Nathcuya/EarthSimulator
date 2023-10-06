@@ -18,6 +18,11 @@ using namespace std;
 //     return 0;
 // }
 
+
+void{
+    if(Romdon[i]>Romdon[i+1])
+};
+
 int main()
 {
     // int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -41,7 +46,7 @@ int main()
     //冒泡排序
 
     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
+    int i = 0;
 
-    
 }
 
