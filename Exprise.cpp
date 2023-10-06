@@ -40,7 +40,7 @@ int main()
     // 冒泡排序
 
     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
-    // 排序前数组结果
+    
     cout << "排序前数组顺序:" << endl;
 
     for (int i = 0; i <= 8; i++)
@@ -48,7 +48,9 @@ int main()
         cout << Romdon[i] << " ";
     }
     cout << endl;
+
     int Allowance;
+
     for (int k = 0; k < 8; k++)
     {
         for (int j = 0; j < 9; j++)
@@ -56,18 +58,19 @@ int main()
             
             if (Romdon[j] < Romdon[j + 1])
             {
-                // cout << Romdon[j] << endl;
-                // cout << Romdon[j+1] << endl;
                 Allowance = Romdon[j + 1];
                 Romdon[j + 1]=Romdon[j] ;
                 Romdon[j]= Allowance;
             };
         };
     };
-    cout << "排序后的数组顺序:" << endl;
+
+    cout << "排序后的数组顺序（从大到小）:" << endl;
+
     for (int i = 0; i <= 8;i++)
     {
         cout << Romdon[i] << " ";
     }
     cout << endl;
+
 }
