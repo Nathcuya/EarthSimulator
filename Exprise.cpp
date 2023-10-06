@@ -19,9 +19,7 @@ using namespace std;
 // }
 
 
-void{
-    if(Romdon[i]>Romdon[i+1])
-};
+
 
 int main()
 {
@@ -46,7 +44,21 @@ int main()
     //冒泡排序
 
     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
-    int i = 0;
+    //排序前数组结果
+    cout << "排序前数组顺序:" << endl;
 
+    for (int i = 0; i <= 9; i++)
+    {
+        cout << Romdon[i] <<" ";
+    }
+    cout << endl;
+
+    for (int j = 0; j <9; j++)
+    {
+if(Romdon[j]<Romdon[j+1])
+{
+
+};
+    };
 }
 
