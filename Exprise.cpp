@@ -18,6 +18,43 @@ using namespace std;
 //     return 0;
 // }
 
+int maopao(int arr[])
+{
+ cout << "排序前数组顺序:" << endl;
+
+    for (int i = 0; i <= 8; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    int Allowance;
+
+    for (int k = 0; k < 8; k++)
+    {
+        for (int j = 0; j < 9; j++)
+        {
+            
+            if (arr[j] < arr[j + 1])
+            {
+                Allowance = arr[j + 1];
+                arr[j + 1]=arr[j] ;
+                arr[j]= Allowance;
+            };
+        };
+    };
+
+    cout << "排序后的数组顺序（从大到小）:" << endl;
+
+    for (int i = 0; i <= 8;i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
 int main()
 {
     // int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
@@ -40,37 +77,7 @@ int main()
     // 冒泡排序
 
     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
-    
-    cout << "排序前数组顺序:" << endl;
 
-    for (int i = 0; i <= 8; i++)
-    {
-        cout << Romdon[i] << " ";
-    }
-    cout << endl;
-
-    int Allowance;
-
-    for (int k = 0; k < 8; k++)
-    {
-        for (int j = 0; j < 9; j++)
-        {
-            
-            if (Romdon[j] < Romdon[j + 1])
-            {
-                Allowance = Romdon[j + 1];
-                Romdon[j + 1]=Romdon[j] ;
-                Romdon[j]= Allowance;
-            };
-        };
-    };
-
-    cout << "排序后的数组顺序（从大到小）:" << endl;
-
-    for (int i = 0; i <= 8;i++)
-    {
-        cout << Romdon[i] << " ";
-    }
-    cout << endl;
-
+    maopao(Romdon);
 }
+
