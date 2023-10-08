@@ -36,7 +36,7 @@ using namespace std;
     // }
 
 
-int maopao(int arr[])
+void  maopao(int arr[])
 {
  cout << "排序前数组顺序:" << endl;
 
@@ -70,13 +70,12 @@ int maopao(int arr[])
     }
     cout << endl;
 
-    return 0;
+   
 }
 
 int main()
 {
     
-
     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
 
     maopao(Romdon);
