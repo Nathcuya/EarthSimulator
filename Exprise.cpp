@@ -36,48 +36,48 @@ using namespace std;
     // }
 
 
-void  maopao(int arr[])
-{
- cout << "排序前数组顺序:" << endl;
+// void  maopao(int arr[])
+// {
+//  cout << "排序前数组顺序:" << endl;
 
-    for (int i = 0; i <= 8; i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+//     for (int i = 0; i <= 8; i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
 
-    int Allowance;
+//     int Allowance;
 
-    for (int k = 0; k < 8; k++)
-    {
-        for (int j = 0; j < 9; j++)
-        {
+//     for (int k = 0; k < 8; k++)
+//     {
+//         for (int j = 0; j < 9; j++)
+//         {
             
-            if (arr[j] < arr[j + 1])
-            {
-                Allowance = arr[j + 1];
-                arr[j + 1]=arr[j] ;
-                arr[j]= Allowance;
-            };
-        };
-    };
+//             if (arr[j] < arr[j + 1])
+//             {
+//                 Allowance = arr[j + 1];
+//                 arr[j + 1]=arr[j] ;
+//                 arr[j]= Allowance;
+//             };
+//         };
+//     };
 
-    cout << "排序后的数组顺序（从大到小）:" << endl;
+//     cout << "排序后的数组顺序（从大到小）:" << endl;
 
-    for (int i = 0; i <= 8;i++)
-    {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
+//     for (int i = 0; i <= 8;i++)
+//     {
+//         cout << arr[i] << " ";
+//     }
+//     cout << endl;
 
    
-}
+// }
 
-int main()
-{
+// int main()
+// {
     
-    int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
+//     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
 
-    maopao(Romdon);
-}
+//     maopao(Romdon);
+// }
 
