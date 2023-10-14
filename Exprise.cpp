@@ -81,3 +81,18 @@ using namespace std;
 //     maopao(Romdon);
 // }
 
+struct Account
+{
+    string name;
+    string password;
+    
+};
+
+int main()
+{
+    struct Account account1;
+    account1.name = "Nathcuya";
+    account1.password = "shi050423";
+
+    cout << "账号名称" << account1.name << endl;
+}
