@@ -86,13 +86,12 @@ struct Account
     string name;
     string password;
     
-};
+}account1,account2;
 
 int main()
 {
-    struct Account account1;
     account1.name = "Nathcuya";
     account1.password = "shi050423";
-
-    cout << "账号名称" << account1.name << endl;
+    account2 = {"nath", "Shi050423"};
+    cout << "账号名称：" << account2.name << endl;
 }
