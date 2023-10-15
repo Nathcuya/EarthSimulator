@@ -2,6 +2,25 @@
 
 using namespace std;
 
+struct Student
+{
+    string name;
+    int score;
+
+};
+
+struct Teacher
+{
+    string Name;
+    struct Student;
+};
+
+int main()
+{
+    Student student[5][2] = {
+        {"name1", 12},{"name2",34},{"name3",54},{"name4",45}.{"name5"}
+    };
+}
 // int main()
 // {
 //     std::cout << "Hello, World!" << std::endl;
