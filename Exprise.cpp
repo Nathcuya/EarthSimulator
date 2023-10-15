@@ -81,15 +81,15 @@ using namespace std;
 //     maopao(Romdon);
 // }
 
-struct Account 
-{
-    string name;
-    string password;
+// struct Account 
+// {
+//     string name;
+//     string password;
     
-}acc1[2];
+// }acc1[2];
 
-int main()
-{
-    Account acc1[2] = {{"nath", "shi050423"},{"Nath","Shi050423"}};
-    cout<< "账户名称：" << acc1[0].name << endl;
-}
+// int main()
+// {
+//     Account acc1[2] = {{"nath", "shi050423"},{"Nath","Shi050423"}};
+//     cout<< "账户名称：" << acc1[0].name << endl;
+// }
