@@ -12,15 +12,18 @@ struct Student
 struct Teacher
 {
     string Name;
-    struct Student;
+    struct Student student[5][2];
 };
 
 int main()
 {
     Student student[5][2] = {
-        {"name1", 12},{"name2",34},{"name3",54},{"name4",45}.{"name5"}
+        {"name1", 12},{"name2",34},{"name3",54},{"name4",45},{"name5",64}
     };
-}
+    Teacher teacher[3] = {
+        {"Name1", student[0][0]}, {"Name2", student[1][1]},{"Name3",student[]}
+    };
+};
 // int main()
 // {
 //     std::cout << "Hello, World!" << std::endl;
