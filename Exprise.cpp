@@ -132,10 +132,3 @@ int main()
 //     string name;
 //     string password;
 
-// }acc1[2];
-
-// int main()
-// {
-//     Account acc1[2] = {{"nath", "shi050423"},{"Nath","Shi050423"}};
-//     cout<< "账户名称：" << acc1[0].name << endl;
-// }
