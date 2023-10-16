@@ -119,11 +119,4 @@ int main()
 
 // }
 
-// int main()
-// {
-
-//     int Romdon[9] = {4, 6, 8, 1, 5, 7, 2, 3, 9};
-
-//     maopao(Romdon);
-// }
 
