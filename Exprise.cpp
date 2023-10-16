@@ -111,12 +111,3 @@ int main()
 
 //     cout << "排序后的数组顺序（从大到小）:" << endl;
 
-//     for (int i = 0; i <= 8;i++)
-//     {
-//         cout << arr[i] << " ";
-//     }
-//     cout << endl;
-
-// }
-
-
