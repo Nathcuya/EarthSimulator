@@ -13,19 +13,27 @@ void BubbleSort(struct Character HeroArray[], int len)
 
     for (int i = 0; i < len-1; i++)
     {
-        for (int j = 0; j < len-1-1; j++)
+        for (int j = 0; j < len-i-1; j++)
         {
-            if (HeroArray[i].age < HeroArray[i + 1].age)
+            if (HeroArray[j].age > HeroArray[j + 1].age)
             {
-                string temp[] = HeroArray[i + 1];
-                HeroArray[i + 1] = HeroArray[i];
-                HeroArray[i] = temp;
+               struct Character temp = HeroArray[j];
+                HeroArray[j] = HeroArray[j+1];
+                HeroArray[j+1] = temp;
             }
         }
     };
-    for (int k = 0;k)
+   
 };
 
+void PrintHero(struct Character HeroArray[], int len)
+{
+    cout << "年龄升序后的英雄数据如下:" << endl;
+    for (int i = 0; i < len;i++)
+{
+        cout << "姓名:" << HeroArray[i].Name << "年龄:" << HeroArray[i].age << "性别:" << HeroArray[i].gender << endl;
+}
+};
 int main()
 {
     Character HeroArray[5] =
@@ -40,8 +48,8 @@ int main()
     int len = sizeof(HeroArray) / sizeof(HeroArray[0]);
 
     BubbleSort(HeroArray,len);
-
-
+    PrintHero(HeroArray, len);
+}
 // int main()
 // {
 //     std::cout << "Hello, World!" << std::endl;
