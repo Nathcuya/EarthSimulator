@@ -83,13 +83,3 @@ int main()
 
 // }
 
-// void  maopao(int arr[])
-// {
-//  cout << "排序前数组顺序:" << endl;
-
-//     for (int i = 0; i <= 8; i++)
-//     {
-//         cout << arr[i] << " ";
-//     }
-//     cout << endl;
-
