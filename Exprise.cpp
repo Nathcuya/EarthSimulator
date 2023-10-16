@@ -93,10 +93,3 @@ int main()
 //     }
 //     cout << endl;
 
-//     int Allowance;
-
-//     for (int k = 0; k < 8; k++)
-//     {
-//         for (int j = 0; j < 9; j++)
-//         {
-
