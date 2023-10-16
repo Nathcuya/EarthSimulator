@@ -127,8 +127,3 @@ int main()
 //     maopao(Romdon);
 // }
 
-// struct Account
-// {
-//     string name;
-//     string password;
-
