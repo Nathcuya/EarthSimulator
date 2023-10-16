@@ -11,18 +11,19 @@ struct Character
 void BubbleSort(struct Character HeroArray[], int len)
 {
 
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < len-1; i++)
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < len-1-1; j++)
         {
             if (HeroArray[i].age < HeroArray[i + 1].age)
             {
-                int temp = HeroArray[i + 1].age;
-                HeroArray[i + 1].age = HeroArray[i].age;
-                HeroArray[i].age = temp;
+                string temp[] = HeroArray[i + 1];
+                HeroArray[i + 1] = HeroArray[i];
+                HeroArray[i] = temp;
             }
         }
-    }
+    };
+    for (int k = 0;k)
 };
 
 int main()
@@ -40,7 +41,7 @@ int main()
 
     BubbleSort(HeroArray,len);
 
-    
+
 // int main()
 // {
 //     std::cout << "Hello, World!" << std::endl;
