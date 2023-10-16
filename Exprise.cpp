@@ -60,9 +60,3 @@ int main()
 //     cout << "int *p:" << sizeof(p) << endl;
 //     cout << p << endl;
 
-//     int *point = NULL;
-//     int c;
-//     const int * const p3 = &c;
-//     return 0;
-// }
-
