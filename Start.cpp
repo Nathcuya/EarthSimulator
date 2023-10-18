@@ -20,8 +20,9 @@ int main()
     int seclect = 0;
 
     MenuShow();
-    cout << "请输入功能号:" << endl;
+    // cout << "请输入功能号:" << endl;
     cin >> seclect;
+    
 
     switch (seclect)
     {
