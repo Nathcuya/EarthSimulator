@@ -17,8 +17,11 @@ void MenuShow()
 
 int main()
 {
-
+    int seclect = 0;
+    
     MenuShow();
+    cout << "请输入功能号:" << endl;
+    cin>>
 
     return 0;
 }
