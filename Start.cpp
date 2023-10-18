@@ -17,14 +17,14 @@ void MenuShow()
 
 int main()
 {
-    int seclect = 0;
+    int select = 0;
 
     MenuShow();
     // cout << "请输入功能号:" << endl;
-    cin >> seclect;
+    cin >> select;
     
 
-    switch (seclect)
+    switch (select)
     {
     case 1:
 
