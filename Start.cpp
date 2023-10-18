@@ -18,10 +18,28 @@ void MenuShow()
 int main()
 {
     int seclect = 0;
-    
+
     MenuShow();
     cout << "请输入功能号:" << endl;
-    cin>>
+    cin >> seclect;
+
+    switch (seclect)
+    {
+    case 1:
+
+        break;
+    case 2:
+        break;
+case 3:
+        break;
+        case 4:
+        break;
+        case 5:
+        break;
+        
+    default:
+        break;
+    }
 
     return 0;
 }
