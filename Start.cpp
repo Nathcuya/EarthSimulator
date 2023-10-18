@@ -30,13 +30,15 @@ int main()
         break;
     case 2:
         break;
-case 3:
+    case 3:
         break;
-        case 4:
+    case 4:
         break;
-        case 5:
+    case 5:
         break;
-        
+    case 6:
+        break;
+
     default:
         break;
     }
