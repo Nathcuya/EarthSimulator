@@ -3,6 +3,7 @@
 using namespace std;
 
 #define PERSOMN_MAX 1000
+
 void MenuShow()
 {
     cout << "----------------------------" << endl;
@@ -24,6 +25,13 @@ struct Person
     string P_gender;
     int P_phonenumber;
     string P_add;
+};
+
+struct AddressBook
+{
+    /* data */
+    struct Person PersonNumber[PERSOMN_MAX];
+    
 };
 
 int main()
