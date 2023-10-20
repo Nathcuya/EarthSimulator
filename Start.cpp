@@ -15,6 +15,16 @@ void MenuShow()
     cout << "----------------------------" << endl;
 }
 
+struct Person
+{
+    /* data */
+    string name;
+    int age;
+    string gender;
+    int phonenumber;
+    string add;
+};
+
 int main()
 {
     int select = 0;
