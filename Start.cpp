@@ -22,7 +22,6 @@ int main()
     MenuShow();
     // cout << "请输入功能号:" << endl;
     cin >> select;
-    
 
     switch (select)
     {
@@ -39,6 +38,8 @@ int main()
         break;
     case 6:
         break;
+    case 0:
+        cout << "已退出通讯录系统,欢迎下次使用!" << endl;
 
     default:
         break;
