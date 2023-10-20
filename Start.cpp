@@ -39,7 +39,9 @@ int main()
     case 6:
         break;
     case 0:
-        cout << "已退出通讯录系统,欢迎下次使用!" << endl;
+        cout << "按任意键退出通讯录系统,欢迎下次使用!" << endl;
+        system("pause");
+        return 0;
 
     default:
         break;
