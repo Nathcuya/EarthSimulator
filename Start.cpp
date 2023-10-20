@@ -31,6 +31,7 @@ struct AddressBook
 {
     /* data */
     struct Person PersonNumber[PERSOMN_MAX];
+    int person_account;
     
 };
 
