@@ -2,6 +2,7 @@
 
 using namespace std;
 
+#define PERSOMN_MAX 1000
 void MenuShow()
 {
     cout << "----------------------------" << endl;
@@ -18,11 +19,11 @@ void MenuShow()
 struct Person
 {
     /* data */
-    string name;
-    int age;
-    string gender;
-    int phonenumber;
-    string add;
+    string P_name;
+    int P_age;
+    string P_gender;
+    int P_phonenumber;
+    string P_add;
 };
 
 int main()
