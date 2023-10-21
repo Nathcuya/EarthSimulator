@@ -39,7 +39,7 @@ void AddPerson(AddressBook *abs)
     if (abs->person_account == PERSOMN_MAX)
     {
         cout << "通讯录已满" << endl;
-        return 0;
+        return;
     
     }
 };
