@@ -70,7 +70,6 @@ void AddPerson(AddressBook *abs)
 
         cout << "联系人添加成功!" << endl;
 
-        system("pause");
         system("cls");
     }
 };
@@ -82,8 +81,9 @@ int main()
     int select = 0;
     while (true)
     {
+
         MenuShow();
-        // cout << "请输入功能号:" << endl;
+        cout << "请输入功能号:" << endl;
         cin >> select;
 
         switch (select)
