@@ -32,11 +32,15 @@ struct AddressBook
     /* data */
     struct Person PersonNumber[PERSOMN_MAX];
     int person_account;
-    
 };
+void AddPerson(AddressBook *abs){
 
+};
 int main()
 {
+
+    AddressBook abs;
+
     int select = 0;
     while (true)
     {
@@ -47,7 +51,7 @@ int main()
         switch (select)
         {
         case 1:
-
+            AddPerson(&abs);
             break;
         case 2:
             break;
