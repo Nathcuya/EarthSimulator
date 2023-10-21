@@ -33,8 +33,15 @@ struct AddressBook
     struct Person PersonNumber[PERSOMN_MAX];
     int person_account;
 };
-void AddPerson(AddressBook *abs){
+void AddPerson(AddressBook *abs)
+{
 
+    if (abs->person_account == PERSOMN_MAX)
+    {
+        cout << "通讯录已满" << endl;
+        return 0;
+    
+    }
 };
 int main()
 {
