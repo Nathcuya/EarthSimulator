@@ -30,17 +30,44 @@ struct Person
 struct AddressBook
 {
     /* data */
-    struct Person PersonNumber[PERSOMN_MAX];
-    int person_account;
+    struct Person PersonAccount[PERSOMN_MAX];
+    int person_number=0;
 };
 void AddPerson(AddressBook *abs)
 {
 
-    if (abs->person_account == PERSOMN_MAX)
+    if (abs->person_number == PERSOMN_MAX)
     {
         cout << "通讯录已满" << endl;
         return;
     
+    }
+    else
+    {
+        string name,gender,add;
+        int age,phonenumber;
+        cout << "请输入联系人姓名:" << endl;
+        cin >>name;
+        abs->PersonAccount[abs->person_number].P_name =name;
+
+        cout << "请输入联系人性别:" << endl;
+        cin >> gender;
+        abs->PersonAccount[abs->person_number].P_gender = gender;
+
+        cout << "请输入联系人年龄:" << endl;
+        cin >> age;
+        abs->PersonAccount[abs->person_number].P_age = age;
+
+        
+        cout << "请输入联系人号码:" << endl;
+        cin >> phonenumber;
+        abs->PersonAccount[abs->person_number].P_phonenumber = phonenumber;
+
+
+        cout << "请输入联系人地址:" << endl;
+        cin >> add;
+        abs->PersonAccount[abs->person_number].P_add = add;
+
     }
 };
 int main()
