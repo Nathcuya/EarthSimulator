@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 using namespace std;
 
 #define PERSOMN_MAX 1000
